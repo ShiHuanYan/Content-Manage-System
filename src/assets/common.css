@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #b7daff;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    margin: 2px;
+}
+a {
+    display: block;
+    color: #1a87ff;
+    text-decoration: none;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+    color: #fff;
+    background-color: #1a87ff;
+    border: 1px solid #1a87ff;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+button:active {
+    background-color: #1a7eea;
+    border-color: #1a7eea;
+}
+ul {
+    list-style: none;
+}
+summary,
+summary::marker {
+    color: #1a87ff;
+}
